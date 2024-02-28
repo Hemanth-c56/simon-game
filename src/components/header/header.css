@@ -1,0 +1,17 @@
+.header{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img{
+    width:15rem;
+    border-radius: 20%;
+}   
+
+@media (max-width: 500px){
+    .header img{
+        width: 13rem;
+    }   
+}
